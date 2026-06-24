@@ -19,11 +19,19 @@ nav {
     margin-bottom: 40px;
 }
 
+nav h2 {
+    color: #1B4332; /* Biology green */
+}
+
 .nav-links a {
     margin-left: 15px;
     text-decoration: none;
-    color: #333;
+    color: #1D3557; /* Data science navy */
     font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #1B4332;
 }
 
 /* HERO */
@@ -32,6 +40,7 @@ nav {
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    border-left: 6px solid #1B4332;
 }
 
 .hero-content {
@@ -45,6 +54,15 @@ nav {
     height: 140px;
     border-radius: 50%;
     object-fit: cover;
+    border: 4px solid #95D5B2;
+}
+
+.hero h1 {
+    color: #1B4332;
+}
+
+.hero p {
+    color: #555;
 }
 
 /* BUTTONS */
@@ -55,16 +73,20 @@ nav {
 .btn {
     display: inline-block;
     padding: 10px 15px;
-    background: black;
+    background: #1D3557; /* Navy */
     color: white;
     text-decoration: none;
     border-radius: 6px;
     margin-right: 10px;
 }
 
+.btn:hover {
+    background: #1B4332;
+}
+
 .btn.secondary {
-    background: #e0e0e0;
-    color: black;
+    background: #95D5B2;
+    color: #1B4332;
 }
 
 /* SECTION */
@@ -73,4 +95,9 @@ nav {
     background: white;
     padding: 25px;
     border-radius: 12px;
+    border-top: 4px solid #95D5B2;
+}
+
+.section h2 {
+    color: #1B4332;
 }
